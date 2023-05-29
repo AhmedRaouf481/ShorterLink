@@ -18,7 +18,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
   "include": [
     "src"
